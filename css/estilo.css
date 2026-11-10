@@ -1,0 +1,100 @@
+
+/* ========================================
+   1. CONFIGURAÇÕES GERAIS
+======================================== */
+
+/* Define o comportamento do dimensionamento */
+* {
+    box-sizing: border-box;
+}
+
+/* Configura a página */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 130px;
+}
+
+/* Estilização principal do corpo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EFF4FA;
+    color: #263445;
+    line-height: 1.6;
+}
+
+/* Container para limitar a largura do conteúdo */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Títulos das seções */
+h2 {
+    color: #163A5F;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* ========================================
+   2. CABEÇALHO
+======================================== */
+
+.cabecalho {
+    background-color: #163A5F;
+    color: #FFFFFF;
+    padding: 25px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Nome do proprietário do portfólio */
+.cabecalho h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Subtítulo do cabeçalho */
+.cabecalho .subtitulo {
+    margin: 5px 0 20px;
+    color: #DCE8F5;
+    font-size: 16px;
+}
+
+/* ========================================
+   3. MENU DE NAVEGAÇÃO
+======================================== */
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* Links do menu */
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 9px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+.menu a:hover {
+    background-color: #2563EB;
+}
+
+/* Destaque para navegação pelo teclado */
+.menu a:focus-visible {
+    outline: 3px solid #FFFFFF;
+    outline-offset: 4px;
+}

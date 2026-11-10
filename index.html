@@ -1,70 +1,143 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Portfólio - Valdineide Schunk</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
 
-<header>
-    <h1>Valdineide Schunk</h1>
-    <p>Estudante de Análise e Desenvolvimento de Sistemas - 4º período</p>
+    <header class="cabecalho">
 
-    <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#formacao">Formação</a>
-        <a href="#conhecimentos">Conhecimentos</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#contato">Contato</a>
-    </nav>
-</header>
+        <div class="container">
 
-<main>
+            <h1>Valdineide Schunk</h1>
 
-<section id="sobre">
-    <h2>Sobre mim</h2>
-    <img src="perfil.webp" alt="Foto de Valdineide Schunk" width="100">
-    <p>Sou estudante de Análise e Desenvolvimento de Sistemas, interessado em tecnologia e desenvolvimento de software.</p>
-</section>
+            <p class="subtitulo">
+                Estudante de Análise e Desenvolvimento de Sistemas - 4º período
+            </p>
 
-<section id="formacao">
-    <h2>Formação</h2>
-    <ul>
-        <li>ADS - FAESA - 2025 a 2027</li>
-        <li>Técnico em Desenvolvimento de Sistemas - SENAI - 2024</li>
-        <li>Técnico em Informática - 2011 a 2012</li>
-    </ul>
-</section>
+            <nav class="menu">
+                <a href="#sobre">Sobre</a>
+                <a href="#formacao">Formação</a>
+                <a href="#conhecimentos">Conhecimentos</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </nav>
 
-<section id="conhecimentos">
-    <h2>Conhecimentos</h2>
-    <ul>
-        <li>HTML</li>
-        <li>JavaScript</li>
-        <li>Java</li>
-        <li>Git e GitHub</li>
-    </ul>
-</section>
+        </div>
 
-<section id="projetos">
-    <h2>Projetos</h2>
+    </header>
 
-    <h3>DESENVOLVIMENTO-DE-APLICAÇÕES-WEB</h3>
-</section>
+    <main class="container">
 
-<section id="contato">
-    <h2>Contato</h2>
-    <p>E-mail: <a href="mailto:valdineideschunk@gmail.com">valdineideschunk@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/ValdineideSchunk">GitHub</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/valdineide-schunk" target="_blank">LinkedIn</a></p>
-</section>
+        <section id="sobre" class="secao">
 
-</main>
+            <h2>Sobre mim</h2>
 
-<footer>
-    <p>&copy; 2026 Valdineide Schunk</p>
-</footer>
+            <div class="sobre-conteudo">
+
+                <img src="perfil.webp"
+                     alt="Foto de Valdineide Schunk"
+                     class="foto-perfil">
+
+                <p>
+                    Sou estudante de Análise e Desenvolvimento de Sistemas,
+                    interessado em tecnologia e desenvolvimento de software.
+                </p>
+
+            </div>
+
+        </section>
+
+        <section id="formacao" class="secao">
+
+            <h2>Formação</h2>
+
+            <ul class="lista-formacao">
+                <li>ADS - FAESA - 2025 a 2027</li>
+                <li>Técnico em Desenvolvimento de Sistemas - SENAI - 2024</li>
+                <li>Técnico em Informática - 2011 a 2012</li>
+            </ul>
+
+        </section>
+
+        <section id="conhecimentos" class="secao">
+
+            <h2>Conhecimentos</h2>
+
+            <ul class="lista-conhecimentos">
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Git e GitHub</li>
+            </ul>
+
+        </section>
+
+        <section id="projetos" class="secao">
+
+            <h2>Projetos</h2>
+
+            <article class="card-projeto">
+
+                <h3>Desenvolvimento de Aplicações Web</h3>
+
+                <p>
+                    Projeto desenvolvido durante a disciplina de
+                    Desenvolvimento de Aplicações Web.
+                </p>
+
+            </article>
+
+        </section>
+
+        <section id="contato" class="secao">
+
+            <h2>Contato</h2>
+
+            <div class="lista-contato">
+
+                <p>
+                    E-mail:
+                    <a href="mailto:valdineideschunk@gmail.com">
+                        valdineideschunk@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    GitHub:
+                    <a href="https://github.com/ValdineideSchunk"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub
+                    </a>
+                </p>
+
+                <p>
+                    LinkedIn:
+                    <a href="https://www.linkedin.com/in/valdineide-schunk"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2026 Valdineide Schunk</p>
+    </footer>
 
 </body>
 </html>
